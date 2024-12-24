@@ -1,0 +1,114 @@
+/* Mengatur tampilan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5fe; /* Warna latar belakang lebih cerah */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #1e88e5; /* Biru terang untuk heading */
+}
+
+/* Tambah Pengguna Baru button */
+.btn-add {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Form Pencarian */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #90caf9; /* Biru terang untuk kotak pencarian */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #2196f3; /* Biru utama untuk tombol */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1976d2; /* Warna biru lebih gelap saat hover */
+}
+
+/* Tabel */
+.table-container {
+    overflow-x: auto; /* Responsif untuk perangkat kecil */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #bbdefb; /* Biru muda untuk header tabel */
+    color: #1e88e5; /* Biru terang */
+}
+
+tr:nth-child(even) {
+    background-color: #e3f2fd; /* Biru sangat terang untuk baris genap */
+}
+
+/* Tombol Edit dan Hapus */
+.btn-edit, .btn-delete {
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.btn-edit {
+    background-color: #ffb74d; /* Oranye terang */
+}
+
+.btn-edit:hover {
+    background-color: #ffa726; /* Warna oranye lebih gelap saat hover */
+}
+
+.btn-delete {
+    background-color: #e57373; /* Merah terang */
+}
+
+.btn-delete:hover {
+    background-color: #ef5350; /* Warna merah lebih gelap saat hover */
+}
